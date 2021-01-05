@@ -14,7 +14,7 @@
 
 -------------------------------------------------------------------------------- */
 
-
+//#resource "cnrom.cfg"
 #define CFGFILE cnrom.cfg
 
 // bank-switching configuration
