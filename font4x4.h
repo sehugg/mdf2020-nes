@@ -1,0 +1,247 @@
+
+const unsigned char char_space[2*2]={
+	0x0e,0x0e,
+	0x0e,0x0e
+};
+
+const unsigned char char_0[2*2]={
+	0x4a,0x4b,
+	0x55,0x1e
+};
+
+const unsigned char char_1[2*2]={
+	0x4c,0x0e,
+	0x56,0x57
+};
+
+const unsigned char char_2[2*2]={
+	0x4d,0x4e,
+	0x58,0x59
+};
+
+const unsigned char char_3[2*2]={
+	0x4f,0x01,
+	0x5a,0x21
+};
+
+const unsigned char char_4[2*2]={
+	0x12,0x12,
+	0x5b,0x5c
+};
+
+const unsigned char char_5[2*2]={
+	0x02,0x50,
+	0x5d,0x21
+};
+
+const unsigned char char_6[2*2]={
+	0x00,0x51,
+	0x5e,0x21
+};
+
+const unsigned char char_7[2*2]={
+	0x52,0x53,
+	0x5f,0x60
+};
+
+const unsigned char char_8[2*2]={
+	0x54,0x03,
+	0x61,0x1a
+};
+
+const unsigned char char_9[2*2]={
+	0x00,0x01,
+	0x3c,0x21
+};
+
+const unsigned char char_A[2*2]={
+	0x00,0x01,
+	0x17,0x18
+};
+
+const unsigned char char_B[2*2]={
+	0x02,0x03,
+	0x19,0x1a
+};
+
+const unsigned char char_C[2*2]={
+	0x04,0x05,
+	0x1b,0x1c
+};
+
+const unsigned char char_D[2*2]={
+	0x06,0x07,
+	0x1d,0x1e
+};
+
+
+
+
+const unsigned char char_E[2*2]={
+	0x02,0x08,
+	0x19,0x1f,
+};
+
+const unsigned char char_F[2*2]={
+	0x02,0x08,
+	0x17,0x20,
+};
+
+const unsigned char char_G[2*2]={
+	0x04,0x09,
+	0x1b,0x21,
+};
+
+const unsigned char char_H[2*2]={
+	0x0a,0x0b,
+	0x17,0x18,
+};
+
+const unsigned char char_I[2*2]={
+	0x0c,0x0d,
+	0x22,0x23,
+};
+
+const unsigned char char_J[2*2]={
+	0x0e,0x0f,
+	0x24,0x1e
+};
+
+const unsigned char char_K[2*2]={
+	0x10,0x11,
+	0x25,0x26
+};
+
+const unsigned char char_L[2*2]={
+	0x12,0x0e,
+	0x1d,0x23,
+};
+
+const unsigned char char_M[2*2]={
+	0x13,0x14,
+	0x27,0x28
+};
+
+
+const unsigned char char_N[2*2]={
+	0x15,0x16,
+	0x29,0x2a,
+};
+
+const unsigned char char_O[2*2]={
+	0x04,0x07,
+	0x1b,0x1e
+};
+
+const unsigned char char_P[2*2]={
+	0x02,0x01,
+	0x17,0x2b
+};
+
+const unsigned char char_Q[2*2]={
+	0x04,0x07,
+	0x39,0x3a,
+};
+
+const unsigned char char_R[2*2]={
+	0x02,0x03,
+	0x17,0x3b,
+};
+
+const unsigned char char_S[2*2]={
+	0x00,0x2c,
+	0x3c,0x21
+};
+
+const unsigned char char_T[2*2]={
+	0x0c,0x0d,
+	0x3D,0x0e
+};
+
+const unsigned char char_U[2*2]={
+	0x12,0x0f,
+	0x1b,0x1e
+};
+
+const unsigned char char_V[2*2]={
+	0x2d,0x2e,
+	0x3e,0x3f
+};
+
+const unsigned char char_W[2*2]={
+	0x2f,0x0f,
+	0x40,0x41
+};
+
+const unsigned char char_X[2*2]={
+	0x30,0x31,
+	0x42,0x43
+};
+
+const unsigned char char_Y[2*2]={
+	0x0a,0x0b,
+	0x3c,0x21
+};
+
+const unsigned char char_Z[2*2]={
+	0x32,0x33,
+	0x44,0x23
+};
+
+const unsigned char char_period[2*2]={
+	0x0e,0x0e,
+	0x38,0x0e
+};
+
+const unsigned char char_comma[2*2]={
+	0x0e,0x0e,
+	0x47,0x0e
+};
+
+const unsigned char char_hyphen[2*2]={
+	0x36,0x37,
+	0x48,0x49
+};
+
+const unsigned char char_exclamation[2*2]={
+	0x35,0x0e,
+	0x45,0x0e
+};
+
+const unsigned char char_question[2*2]={
+	0x34,0x01,
+	0x45,0x46
+};
+
+const unsigned char char_colon[2*2]={
+	0x38,0x0e,
+	0x38,0x0e
+};
+
+const unsigned char char_semicolon[2*2]={
+	0x38,0x0e,
+	0x47,0x0e
+};
+
+const unsigned char char_quotation[2*2]={
+	0x0e,0x47,
+	0x0e,0x0e
+};
+
+const unsigned char char_quotation_alt[2*2]={
+	0x47,0x0e,
+	0x0e,0x0e
+};
+
+
+const unsigned char tbl_ascii[]=" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ.,-!?:;'`";
+
+const unsigned char const* tbl_alphabet[]={
+char_space, char_0, char_1, char_2, char_3, char_4, char_5, char_6, char_7, char_8, char_9,
+char_A, char_B, char_C, char_D, char_E, char_F, char_G, char_H, char_I, char_J, char_K, char_L,
+char_M, char_N, char_O, char_P, char_Q, char_R, char_S, char_T, char_U, char_V, char_W, char_X,
+char_Y, char_Z, char_period, char_comma, char_hyphen, char_exclamation, char_question, char_colon, char_semicolon, char_quotation, char_quotation_alt
+};
+
+
+
